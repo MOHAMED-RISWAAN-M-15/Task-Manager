@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height:100vh;
+    background:#e8f5e9;
+    color:#263228;
+    background-image:url(leaf.jpeg);
+}
+.main{
+    display:flex;
+    justify-content:center;
+    padding:40px 15px;
+}
+.container{
+    
+    width:90%;
+    max-width:600px;
+    background-color:white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15); 
+    margin:0;
+      
+    
+    
+    
+}
+.header{
+    background-color: #4caf50;
+    color:whitesmoke;
+    text-align: center;
+    padding:25px 15px
+}
+h1{
+    margin: 0;
+    user-select:none;
+    font-size: 35px;
+}
+#h1-text{
+    color:hsl(210, 36%, 39%)
+}
+.advice{
+    margin: 8px 0 0;
+
+}
+.task-remainder{
+    display:flex;
+    gap:10px;
+    padding:20px;
+    background-color: #e8f5e9;
+    margin:0px 0; 
+    justify-content: center;  
+}
+#remainder-para{
+    flex:1;
+    text-align: center;
+    background-color: #b1f4b5;
+    padding:10px 5px;
+    border-radius: 15px;
+    font-size:20px;
+    margin:0;
+}
+
+.task-input{
+    display:flex;
+    gap:10px;   
+    padding:20px;
+    }
+#input-el{
+    flex:1;
+    min-width: 0;
+    border:1px solid #d0d7d2;
+    padding:12px;
+    border-radius:9px;
+    font-size:15px;
+    transition:box-shadow 0.25s;
+    
+}
+#input-el:hover{
+    box-shadow: 0 3px 15px rgba(0,0,0,0.15); 
+}
+#input-el:focus{
+    outline:2px solid #81c784;
+}
+button{
+    user-select: none;
+    border:none;
+    border-radius: 8px;
+    padding:10px 16px;
+    font-size:14px;
+}
+#add-btn{
+    background-color:#4caf50;
+    color:white;
+}
+#add-btn:hover{
+    background-color:#388e3c
+}
+.Task{
+    padding:10px 20px 20px
+}
+ul{
+    font-family:Montserrat;
+    font-weight:500;
+    list-style:none;
+    padding:0;
+    margin:0
+}
+
+li{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:15px 5px;
+    border-bottom:2px solid #eeeeee;
+}
+#ul-remender{
+    text-align: center;
+    font-style: italic;
+}
+.checkbox-btn{
+    width:18px;
+    height:17px
+}
+.edit-btn{
+    margin-left:auto;
+    
+    background-color: #e3f2fd;
+    color:#1976d2;
+}
+.edit-btn:hover{
+    background-color:#bbdefb;
+}
+.done-btn{
+    background-color:#4caf50;
+    color:white;
+}
+.done-btn:hover{
+    background-color:#388e3c;
+}
+.cancel-btn{
+    background-color:#ffebee;
+    color: #d32f2f;
+}
+.cancel-btn:hover{
+    background-color: #ffcdd2;
+}
+.delete-btn{
+    background-color:#ffebee;
+    color: #d32f2f;
+}
+.delete-btn:hover{
+    background-color: #ffcdd2;
+}
+.contain-edit-input{
+    display:flex;
+    gap:20px;
+    padding:9px;
+       
+    
+}
+#edit-input-el{
+    flex:1;
+    min-width: 0;
+    border:1px solid #d0d7d2;
+    padding:12px;
+    border-radius:9px;
+    font-size:15px;
+    
+}
+#edit-input-el:focus{
+    outline:2px solid #81c784;
+}
+#quots{
+    text-align: center;
+    background-color:#e8f5e9;
+    font-size:14px;
+    color:rgb(211, 200, 200);
+    border-top:1px solid #eeeeee;
+    margin:0;
+    padding:10px
+}
