@@ -33,7 +33,8 @@ I learned how to:
 - Work with arrays and objects
 - Dynamically create and update elements
 - Use CSS Flexbox for layout
-
+##Screenshot
+![Task Manager](screenshot.png)
 
 ## About
 
